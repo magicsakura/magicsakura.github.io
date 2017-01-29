@@ -6,12 +6,35 @@
 </head>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body background="indexbackground01.png" width="1920" height="1080">
 <style> 
 body{background="indexbackground01.png"; 
 background-repeat:no-repeat;
 background-position:center;
-background fixed;background-size: cover} 
+background fixed;background-size: cover;
+-webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */ 
+-o-background-size: cover;/* 兼容Opera */ 
+zoom: 1; 
+body{ margin:0; padding:0;} 
+#con{ 
+position:absolute; 
+top:0; 
+left:0; 
+height:100%; 
+width:100%; }  
 </style> 
 <div align="center"><img src="indexlogo.png" width="180" height="180" longdesc="櫻社|magicsakura" /></div>
 <p align="center">櫻社</p>
